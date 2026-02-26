@@ -13,13 +13,16 @@
 
 object ProjectSetting {
     // project settings
-    const val NAME_APP = "WebView"
+    const val NAME_APP = "GLEDAJSAD"
 
     // Change This
     // Sample : com.[yourcompanyname].[yourprojectname]
     // Sample : com.frogobox.webview
-    const val PROJECT_APP_ID = "com.github.amirisback.web" // Change With Your Own
+// 1. ID Aplikacije (Ovo je samo "ime" u sistemu, ne mora da ima 'video')
+    const val PROJECT_APP_ID = "com.gledajsad.app" 
 
+// 2. URL Sajta (Ovde ide tvoj pun link koji se otvara)
+    const val URL_LINK_WEBSITE = "https://video.gledajsad.com"
     const val VERSION_MAJOR = 2
     const val VERSION_MINOR = 0
     const val VERSION_PATCH = 1
